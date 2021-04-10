@@ -21,9 +21,18 @@
     margin: 20px;
   }
   &__text::first-letter {
-    font-size: 40px;
-    margin: 2px;
+    font-size: 37px;
+    //margin: 1px;
     float: left;
+  }
+  &__text2 {
+    font-family: $font-Raleway;
+    font-size: 15px;
+    font-weight: 100;
+    color: $color-text1;
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px;
   }
 }
 .academic {
@@ -48,10 +57,12 @@
     text-align: justify;
     line-height: 25px;
     margin: 20px;
-  }
-  &__text::first-letter {
-    font-size: 40px;
-    margin: 2px;
-    float: left;
+    &--bold {
+      font-weight: 500;
+      font-style: italic;
+    }
+    &--italic {
+      font-style: italic;
+    }
   }
 }
