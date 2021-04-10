@@ -1,0 +1,17 @@
+.home {
+  background-color: $color-background;
+  &__img {
+    width: 100%;
+    opacity: 0.6;
+    margin-top: 20px;
+  }
+  &__text {
+    font-family: $font-Raleway;
+    font-size: 14px;
+    font-weight: 100;
+    color: $color-text1;
+    text-align: justify;
+    line-height: 25px;
+    margin: 30px 30px 50px 30px;
+  }
+}
