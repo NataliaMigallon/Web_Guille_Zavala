@@ -1,8 +1,38 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+// .page__footer {
+//   position: fixed;
+//   left: 0;
+//   bottom: 0;
+//   width: 100vw;
+//   padding: 1rem;
+//   color: $color-secondary;
+// }
+.footer {
+  background-color: $color-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-family: $font-Lato;
+    font-size: 15px;
+    font-weight: 500;
+    color: $color-text1;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+  &__social {
+    font-family: $font-Raleway;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-text1;
+    line-height: 25px;
+  }
+  &__small {
+    font-family: $font-Raleway;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-text1;
+    line-height: 25px;
+    margin: 10px;
+  }
 }
